@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Love+Ya+Like+A+Sister&display=swap');
+
+:root {
+/*colocar as variáveis referentes a cores e fontes*/
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: lightgray;
+    font-family: 'Borel', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+background-color: black;
+color: white;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#t-principal {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-variant: small-caps;
+    /*Opções para modificar a fonte --> text-transform: uppercase; font-variant: small-caps*/
+    font-size: 3em;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    padding-left: 40px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+section.normal {
+background-color: white;
+color: black;
+}
+
+section.normal > p {
+    padding-bottom: 2em;
+}
+section.imagem {
+background-color: rgb(83, 80, 80);
+color: white;
+box-shadow: inset 6px 6px 15px 0px gray;
+background-size: cover;
+background-attachment: fixed;
+}
+
+section.imagem > p {
+    background-color: #0000005d;
+    width: 230px;
+    padding: 15px;
+    text-shadow: 2px 1px 0px black;
+    border-radius: 20px;
+}
+
+section#img1 {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img2 {
+   background-image: url(pacote-d012/imagens/background002.jpg);
+   background-position: right center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    }
+    

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio número 6</title>
+    <style>
+        body{
+            background-color: beige;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+      .caixa {
+        display: none;
+        position: absolute;
+        background-color: rgb(216, 238, 139);
+        padding: 15px;
+      }
+
+      .item-hover:hover + .caixa {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tags em HTML5</h1>
+    <p>
+      Em HTML5, podemos inserir os elementos da lista a seguir. Passe o mouse
+      sobre os termos para descobrir as tags relacionadas.
+    </p>
+    <ul type="circle">
+      <li class="item-hover">Parágrafos</li>
+      <div class="caixa"><p>&lt;p&gt;</p></div>
+
+      <li class="item-hover">Títulos</li>
+      <div class="caixa"><p>&lt;h1&gt;</p></div>
+
+      <li class="item-hover">Imagens</li>
+      <div class="caixa"><p>&lt;img&gt;</p></div>
+
+      <li class="item-hover">Abreviações</li>
+      <div class="caixa"><p>&lt;abbr&gt;</p></div>
+
+      <li class="item-hover">Códigos fonte</li>
+      <div class="caixa"><p>&lt;code&gt;</p></div>
+      
+      <li class="item-hover">Listas numeradas</li>
+      <div class="caixa"><p>&lt;ol&gt;</p></div>
+
+      <li class="item-hover">Listas com demarcadores</li>
+      <div class="caixa"><p>&lt;ul&gt;</p></div>
+
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa com Hover em Lista</title>
+    <style>
+        .caixa {
+            display: none;
+            position: absolute;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        .item-hover:hover + .caixa {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="item-hover">Item 1</li>
+        <div class="caixa">
+            <p>Conteúdo do item 1</p>
+        </div>
+        <li class="item-hover">Item 2</li>
+        <div class="caixa">
+            <p>Conteúdo do item 2</p>
+        </div>
+        <li class="item-hover">Item 3</li>
+        <div class="caixa">
+            <p>Conteúdo do item 3 </p>
+        </div>
+    </ul>
+</body>
+</html>
