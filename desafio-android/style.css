@@ -28,10 +28,12 @@ header {
     background-image: linear-gradient(var(--cor3), var(--cor4));
     color: var(--cor0);
     padding: 30px;
+    margin: auto;
 }
 
 nav {
     padding: 10px;
+    margin: auto;
     background-color: var(--cor1);
 }
 
